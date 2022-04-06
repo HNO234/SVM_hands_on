@@ -2,7 +2,7 @@ from libsvm.svmutil import *
 import matplotlib.pyplot as plt
 import numpy as np
 
-para = [(1, 2 ** (-1)), (2, 2 ** 10), (3, 2 ** 10), (4, 2 ** 10)]
+para = [(1, 2 ** 10), (2, 2 ** 10), (3, 2 ** 10), (4, 2 ** 10)]
 D, val, test, sv = [], [], [], []
 
 for i, v in enumerate(para):
