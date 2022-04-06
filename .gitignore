@@ -1,0 +1,4 @@
+train_*
+validate_*
+*.png
+satimage.*
